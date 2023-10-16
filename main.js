@@ -5,5 +5,8 @@ menuEmail.addEventListener('click', toggleDesktopMenu);
 
 function toggleDesktopMenu() {
     //se ocupa esta funcion para ocultar y mostrar el menu desplegable
-    desktopMenu.classList.toggle('innactive');
+    console.log('Click');
+    desktopMenu.classList.toggle('inactive');
 }
+
+console.log('JS Funcionando');
